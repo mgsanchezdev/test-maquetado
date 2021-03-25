@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-filter {
+  display: block;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-section-article-image {
+  width: 260px;
+  height: 182px;
+}
+
+.main-filter-ul {
+  list-style: none;
+}
+.main-filter-ul-li a {
+  text-decoration: none;
+}

@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Test de maquetado</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="./css/tablet.css" media="(min-width:930px)">
 </head>
-<body>
 
+<body>
+	<header class="header">
+		<seccion class="header-seccion">
+			<img class="header-seccion-image" src="./assets/iconos/bars-solid.svg" alt="Menu hambuerguesa"
+				onclick="menuShow()">
+			<img class="header-seccion-image-logo " src="./assets/logo.svg" alt="Logo">
+			<img class="header-seccion-image header-seccion-image--none" src="./assets/iconos/search-solid.svg"
+				alt="Lupa para buscar producto">
+			<img class="header-seccion-image header-seccion-image--none" src="./assets/iconos/user-solid.svg"
+				alt="Icono usuario">
+			<img class="header-seccion-image" src="./assets/iconos/shopping-cart-solid.svg"
+				alt="Icono carrito de compra">
+		</seccion>
+		<nav id="header-navbar" class="header-navbar ">
+			<ul class="header-navbar-ul">
+				<li class="header-navbar-ul-li"><a href="#">Sale</a> </li>
+				<li class="header-navbar-ul-li"><a href="#">E-shop</a></li>
+				<li class="header-navbar-ul-li"><a href="#">Lookbook</a></li>
+				<li class="header-navbar-ul-li"><a href="#">Campaña</a></li>
+				<li class="header-navbar-ul-li"><a href="#">Locales</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div>
+			<h1 class="main-title">Zapatillas</h1>
+			<section class="main-filter">
+				<h3 class="main-filter-title">Filtar</h3>
+				<h4>Categoria</h4>
+				<ul class="main-filter-ul">
+					<li class="main-filter-ul-li"><a href="#">Zapatillas</a></li>
+					<li class="main-filter-ul-li"><a href="#">Zapatos</a></li>
+					<li class="main-filter-ul-li"><a href="#">Botas</a></li>
+					<li class="main-filter-ul-li"><a href="#">Sandalias</a></li>
+					<li class="main-filter-ul-li"><a href="#">Pantuflas</a></li>
+				</ul>
+				<h4>Talle</h4>
+				<ul class="main-filter-ul">
+					<li class="main-filter-ul-li"><a href="#">36</a></li>
+					<li class="main-filter-ul-li"><a href="#">38</a></li>
+					<li class="main-filter-ul-li"><a href="#">40</a></li>
+					<li class="main-filter-ul-li"><a href="#">42</a></li>
+					<li class="main-filter-ul-li"><a href="#">44</a></li>
+				</ul>
+				<h4>Color</h4>
+				<ul class="main-filter-ul">
+					<li class="main-filter-ul-li"><a href="#">Amarillo</a></li>
+					<li class="main-filter-ul-li"><a href="#">Negro</a></li>
+					<li class="main-filter-ul-li"><a href="#">Verde</a></li>
+					<li class="main-filter-ul-li"><a href="#">Azul</a></li>
+					<li class="main-filter-ul-li"><a href="#">Blanco</a></li>
+				</ul>
+			</section>
+		</div>
+		<section class="main-section">
+			<article class="main-section-article">
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+			<article>
+				<img class="main-section-article-image" src="./assets/productos/zapatilla_1.jpg" alt="Zapatilla 1">
+				<h3 class="main-section-article-title">Zapatilla 1 XFX</h3>
+				<h2 class="main-section-article-price">$5000</h2>
+			</article>
+		</section>
+	</main>
+	<script src="./js/app.js"></script>
 </body>
+
 </html>
