@@ -136,6 +136,19 @@ body {
   color: var(--color-texto);
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #24182b;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+}
 .texto {
   font-style: var(--font-style-normal);
   font-weight: var(--font-weight-normal);
