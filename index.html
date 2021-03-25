@@ -11,15 +11,19 @@
 <body>
 	<header class="header">
 		<seccion class="header-seccion">
-			<img class="header-seccion-image" src="./assets/iconos/bars-solid.svg" alt="Menu hambuerguesa"
-				onclick="menuShow()">
-			<img class="header-seccion-image-logo " src="./assets/logo.svg" alt="Logo">
-			<img class="header-seccion-image header-seccion-image--none" src="./assets/iconos/search-solid.svg"
-				alt="Lupa para buscar producto">
-			<img class="header-seccion-image header-seccion-image--none" src="./assets/iconos/user-solid.svg"
-				alt="Icono usuario">
-			<img class="header-seccion-image" src="./assets/iconos/shopping-cart-solid.svg"
-				alt="Icono carrito de compra">
+			<img class="header-seccion-image header-seccion-image--hamburger-none" src="./assets/iconos/bars-solid.svg"
+				alt="Menu hambuerguesa" onclick="menuShow()">
+			<div class="header-seccion-container-logo">
+				<img class="header-seccion-image-logo " src="./assets/logo.svg" alt="Logo">
+			</div>
+			<div class="header-seccion-icons">
+				<img class="header-seccion-image header-seccion-image--none header-seccion-image--show"
+					src="./assets/iconos/search-solid.svg" alt="Lupa para buscar producto">
+				<img class="header-seccion-image header-seccion-image--none header-seccion-image--show"
+					src="./assets/iconos/user-solid.svg" alt="Icono usuario">
+				<img class="header-seccion-image" src="./assets/iconos/shopping-cart-solid.svg"
+					alt="Icono carrito de compra">
+			</div>
 		</seccion>
 		<nav id="header-navbar" class="header-navbar ">
 			<ul class="header-navbar-ul">
