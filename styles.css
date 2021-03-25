@@ -121,6 +121,9 @@ body {
   max-width: 320px;
 }
 
+.header-seccion-image {
+  cursor: pointer;
+}
 .main-section-article-title {
   font-style: var(--font-style-normal);
   font-weight: var(--font-weight-bold);
