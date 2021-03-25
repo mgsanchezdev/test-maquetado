@@ -1,6 +1,7 @@
 .main {
   display: flex;
   justify-content: space-around;
+  height: calc(88vh + 3px);
 }
 
 .main-filter {
@@ -22,4 +23,12 @@
 }
 .main-filter-ul-li a {
   text-decoration: none;
+}
+.footer {
+  flex-direction: row;
+}
+
+.footer-link {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
