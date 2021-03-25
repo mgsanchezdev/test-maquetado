@@ -110,6 +110,7 @@ body {
   line-height: var(--line-spacing-29);
   letter-spacing: var(--character-spacing-0-48);
   color: var(---color-texto);
+  border-bottom: 1px solid black;
 }
 
 .main-filter {
@@ -127,6 +128,7 @@ body {
   line-height: var(--line-spacing-19);
   letter-spacing: var(--character-spacing-0-32);
   color: var(--color-texto);
+  border-top: 1px solid black;
 }
 .main-section-article-price {
   font-style: var(--font-style-normal);

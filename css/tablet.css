@@ -9,6 +9,7 @@
   justify-content: center;
   position: static;
   width: 70%;
+  margin-bottom: 10px;
   background-color: #100217;
   color: white;
 }
@@ -55,7 +56,23 @@
 .main {
   display: flex;
   justify-content: space-around;
-  height: calc(88vh + 3px);
+  height: 88vh;
+}
+
+.main-container {
+  width: 20%;
+}
+
+.main-title {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.mail-filter-subtitle {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #e4e8ee;
 }
 
 .main-filter {
@@ -65,6 +82,7 @@
 .main-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .main-section-article-image {
@@ -77,7 +95,10 @@
 }
 .main-filter-ul-li a {
   text-decoration: none;
+  color: black;
+  padding-left: 10px;
 }
+
 .footer {
   flex-direction: row;
 }
